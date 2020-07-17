@@ -1,0 +1,49 @@
+#active{
+  color:red;
+}
+#grid{
+  display:grid;
+  grid-template-columns:150px 1fr;
+
+}
+
+ a{
+   color: black;
+   text-decoration: none;
+    }
+    h1{
+      font-size: 80px;
+      text-align: center;
+      border-bottom: 1px solid gray;
+      margin:0;
+      padding: 60px;
+    }
+
+      ol{
+    border-right:1px solid gray;
+    width:80px;
+    margin:0;
+    padding-top: 35px;
+    padding-right:10px;
+    padding-left: 47px;
+  }
+  #article{
+    padding-top: 9px;
+    padding-left: 17px;
+
+  }
+  body{
+    margin:0;
+    
+  }
+  @media(max-width:934px)  {
+    #grid{
+      display: block;
+    }
+    ol{
+  border-right:none;
+    }
+    h1{
+    border-bottom: none;
+   }
+}
